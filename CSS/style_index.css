@@ -1,0 +1,156 @@
+/*Estilos Generales*/
+*{
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.inicio{
+  font-size: 1rem
+}
+
+/*Estilos Header Index*/
+.logotipo{
+  width: 6rem;
+  height: 6rem;
+}
+.header_flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.buscar{
+  width: 32rem;
+  height: 2rem;
+  flex-direction: column;
+}
+.menu_navegacion a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+/*Estilos Main Index*/
+.imagen_cabecera{
+  max-width: 100%;
+  height: 30rem;
+}
+.titulo_principal, .titulo_producto{
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 200%;
+}
+.categoria_productos h2 a{
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 0, 255)
+}
+.descripcion_producto{
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 120%;
+}
+.precio{
+  color: rgb(0, 128, 0);
+  font-weight: bold;
+  text-align: center;
+}
+.precio span{
+  text-decoration: line-through;
+  color: rgb(255, 0, 0);
+  font-weight: normal;
+}
+.categoria, .producto, .mediopago{
+    width: 15rem
+}
+.subtitulo_categoria{
+  list-style: none;
+}
+.categoria_productos, .campera_productos, .zapatos_productos, .pantalones_productos, .relojes_productos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Estilos Footer Index*/
+.footer_container {
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+grid-template-rows: repeat(3, 0.2fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.atencion_cliente{ grid-area: 1 / 1 / 2 / 2; }
+.redes_sociales{ grid-area: 2 / 1 / 3 / 2; }
+.medios_pago{ grid-area: 3 / 1 / 4 / 2; }
+.derechos{ grid-area: 4 / 1 / 5 / 2; }
+.mapa{ grid-area: 1 / 2 / 5 / 3; }
+
+.redsocial {
+  width: 2rem;
+  height: 2rem;
+}
+.mediopago{
+  width: 20rem;
+  height: 2rem
+}
+footer{
+  background-color: rgb(0, 0, 0);
+}
+.titulos_footer{
+  color: rgb(255, 255, 255);
+  font-size: medium;
+}
+.parrafo_footer{
+  color: rgb(255, 255, 255);
+  font-size: small;
+}
+.mapa{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+
+/*Media Queries Index*/
+@media only screen and (min-width: 800px){
+  .buscar, ul, .header_flex{
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 800px){
+  .mapa{
+    width: 300px;
+  }
+  .buscar{
+    width: 16rem;
+  }
+}
+
+/*Style cuenta y Contacto*/
+.btn-ingresar, .btn-enviar{
+ background-color: rgb(0, 0, 255)
+}
+
+.text-small:hover{
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.titulo{
+  font-size: 1.5rem;
+  color: rgb(0, 0, 255);
+}
+.home{
+  text-decoration: none;
+  color: rgb(0, 0, 255);
+}
+
