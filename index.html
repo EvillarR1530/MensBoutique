@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Programación Web - CODERHOUSE">
     <meta name="author" content="Efrén Villarreal">
-<!--Bootstrap-->
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <!--Título de la pestaña-->
     <title>Tienda, Moda y Calzado para Hombres</title>
-<!--Ícono de la pestaña-->
+    <!--Ícono de la pestaña-->
     <link rel="icon" href="./Iconografia/logotipo.png">
-<!--Fuente-->
+    <!--Librerias-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!--Vínculo con CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Vínculo con CSS-->
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
@@ -44,18 +45,14 @@
         <!--Menú de navegación-->  
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="menuNav">
+                <div class="collapse navbar-collapse" id="#">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link fs-5" href="./Pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5" href="./Pages/preguntas_frecuentes.html">Peguntas Frecuentes</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="./Pages/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link fs-5" href="./Pages/preguntas_frecuentes.html">Peguntas Frecuentes</a></li>
                     </ul>
                 </div>
             </div>
-        </nav>       
+        </nav>
     </header>
 
     <main>
@@ -64,23 +61,33 @@
         <!--Categorías de productos-->
         <section class="categoria_productos">
             <section>
-                <img class="categoria" src="./Imagenes/accesorios_principal.webp" alt="Accesorios">
+                <a href="#">
+                    <img class="categoria" src="./Imagenes/accesorios_principal.webp" alt="Accesorios">
+                </a>
                 <h2><a href="#">Accesorios</a></h2>
             </section>
             <section>
-                <img class="categoria" src="./Imagenes/botas_hombre_principal.webp" alt="Botas">
+                <a href="#">
+                    <img class="categoria" src="./Imagenes/botas_hombre_principal.webp" alt="Botas">
+                </a>
                 <h2><a href="#">Botas</a></h2>
             </section>
             <section>
-                <img class="categoria" src="./Imagenes/Camperas_hombre_principal.webp" alt="Camperas">
+                <a href="./Pages/camperas.html">
+                    <img class="categoria" src="./Imagenes/Camperas_hombre_principal.webp" alt="Camperas">
+                </a>
                 <h2><a href="./Pages/camperas.html">Camperas</a></h2>
             </section>
             <section>
-                <img class="categoria" src="./Imagenes/relojes_hombres_principal.webp" alt="Relojes">
+                <a href="#">
+                    <img class="categoria" src="./Imagenes/relojes_hombres_principal.webp" alt="Relojes">
+                </a>
                 <h2><a href="#">Relojes</a></h2>
             </section>
             <section>
-                <img class="categoria" src="./Imagenes/pantalones_hombre_principal.webp" alt="Pantalones">
+                <a href="#">
+                    <img class="categoria" src="./Imagenes/pantalones_hombre_principal.webp" alt="Pantalones">
+                </a>
                 <h2><a href="#">Pantalones</a></h2>
             </section>
         </section>

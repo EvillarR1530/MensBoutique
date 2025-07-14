@@ -154,7 +154,7 @@ footer{
 
 /*Media Queries*/
 @media only screen and (min-width: 800px){
-  .buscar, ul, .header_flex{
+  .buscar, ul{
     flex-direction: row;
   }
 }
