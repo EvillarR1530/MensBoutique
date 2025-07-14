@@ -34,9 +34,9 @@
             </div>
             <!-- Cuenta y Carrito -->
             <div class="col-4 text-end">
-            <a href="../Pages/Carrito.html">
-                <i class="bi bi-cart3 fs-2 me-4"></i>
-            </a>
+                <a href="../Pages/cuenta.html">
+                    <i class="bi bi-person-add fs-2 me-4"></i>
+                </a>
             </div>
         </div>
             <!--Menú de navegación-->  
@@ -57,14 +57,18 @@
     </header>
 
     <main>
-        <h1>
+        <h1 class="titulo_carrito">
             Estamos buscando sus productos, pero parece que su carrito está vacío...
         </h1>
-        <h3>
+        <h3 class="subtitulo_carrito">
             Haga clic en seguir comprando y consulte nuestro catálogo
         </h3>
-        <i class="bi bi-cart3 fs-2 me-4"></i>
-         <button type="submit" class="btn btn-primary w-100 border-dark btn-ingresar">Ingresar</button>
+        <div style="text-align: center;">
+            <img class="carrito_vacio" src="../Imagenes/Carrito_Vacio.png" alt="Carrito vacío">
+        </div>
+        <div class="text-center">
+            <a href="../index.html" class="btn btn-primary w-20 border-dark btn-comprar mb-3">Seguir comprando</a>
+        </div>
     </main>
 
     <footer>

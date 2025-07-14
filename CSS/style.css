@@ -83,12 +83,27 @@ a:hover .bi-cart3{
   font-size: 1rem;
   text-align: center;
 }
+.titulo_carrito{
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.subtitulo_carrito{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.carrito_vacio{
+  width: 35rem;
+  height: 22rem;
+}
 .subtitulo_FAQ{
   font-size: 1rem;
   text-align: left;
   color: rgb(0, 0, 255);
 }
-
 .estrella{
   font-size: 20px;
   color: rgb(0, 0, 255);
@@ -152,8 +167,8 @@ footer{
   }
 }
 
-/*Style cuenta y Contacto*/
-.btn-ingresar, .btn-enviar{
+/*Style cuenta, Contacto y carrito*/
+.btn-ingresar, .btn-enviar, .btn-comprar{
  background-color: rgb(79, 78, 78);
 }
 
