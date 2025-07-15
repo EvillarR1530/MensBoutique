@@ -26,7 +26,7 @@
             <!-- Logotipo -->
             <div class="col-4 text-start">
                 <a href="../index.html">
-                    <img src="../Iconografia/logotipo.png" alt="Logotipo" style="height: 80px;">
+                <img src="../Iconografia/logotipo.png" alt="Logotipo" style="height: 80px;">
                 </a>
             </div>
             <!-- Buscador -->
@@ -35,21 +35,26 @@
             </div>
             <!-- Cuenta y Carrito -->
             <div class="col-4 text-end">
-                <a href="../Pages/cuenta.html">
-                    <i class="bi bi-person-add fs-2 me-4"></i>
-                </a>
-                <a href="../Pages/Carrito.html">
-                    <i class="bi bi-cart3 fs-2 me-4"></i>
-                </a>
+                <a href="../Pages/cuenta.html"><i class="bi bi-person-add fs-2 me-4"></i></a>
+                <a href="../Pages/Carrito.html"><i class="bi bi-cart3 fs-2 me-4"></i></a>
             </div>
         </div>
         <!--Menú de navegación-->  
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse" id="#">
+                <!-- Botón de menú para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item"><a class="nav-link fs-5" href="../Pages/contacto.html">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link fs-5" href="../Pages/preguntas_frecuentes.html">Peguntas Frecuentes</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="../Pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5" href="../Pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -170,18 +175,23 @@
 
     <footer>
         <div class="footer_container ms-2">
-            <div class="atencion_cliente">
-                <h3 class="titulos_footer m-0">Atención al cliente</h3>
-                <p class="parrafo_footer m-0">Lunes a viernes 09:00 a 18 hs - sábados y domingos cerrados.
-                    <img class="texto-footer" src="../Iconografia/mail_footer.svg" alt="E-mail">proyecto.coderhouse@gmail.com.ar
-                    <img class="texto-footer" src="../Iconografia/phone_footer.svg" alt="Teléfono">+54 123 456 7890
-                </p>
+            <div class="atencion_cliente mt-3">
+                <h3 class="titulos_footer my-1">Atención al cliente</h3>
+                <p class="parrafo_footer me-3 my-0">Lunes a viernes 09:00 a 18 hs - sábados y domingos cerrados.</p>
+                <i class="bi bi-envelope-at fs-6 me-3 text-white"><span class="ms-2 fst-normal parrafo_footer">proyecto.coderhouse@gmail.com.ar</span></i>
+                <i class="bi bi-telephone fs-6 me-3 text-white"><span class="ms-2 fst-normal parrafo_footer">+54 123 456 7890</span></i>                   
             </div>
-            <div class="redes_sociales">
+            <div class="redes_sociales my-2">
                 <h3 class="titulos_footer">Redes sociales</h3>
-                <img class="redsocial" src="../Iconografia/Redes sociales/ico_Facebook_Color.png" alt="Facebook">
-                <img class="redsocial" src="../Iconografia/Redes sociales/ico_Instagram2.png" alt="Instagram">
-                <img class="redsocial" src="../Iconografia/Redes sociales/ico_Youtube_Color.png" alt="You Tube">  
+                <a href="https://www.facebook.com/">
+                    <i class="bi bi-facebook fs-3 me-4"></i>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <i class="bi bi-instagram fs-3 me-4"></i>
+                </a>
+                <a href="https://www.youtube.com/">
+                    <i class="bi bi-youtube fs-3 me-4"></i>
+                </a> 
             </div>
             <div class="medios_pago my-3">
                 <h3 class="titulos_footer">Medios de Pago</h3>
@@ -189,10 +199,10 @@
                 <img class="mediopago" src="../Iconografia/ico_tarjetas2.png" alt="Medios de pago">
             </div>
             <div class="derechos">
-                <p class="parrafo_footer m-0">Tienda - Todos los derechos reservados.</p>
+                <p class="parrafo_footer">Men's Boutique - Todos los derechos reservados 2025.</p>
             </div>
             <div class="mapa text-white mb-2">Localización
-                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218018.71801115165!2d-64.53495980546874!3d-31.371602599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432991686ffbe1d%3A0xcf390de779d9ec39!2sZENIT%20valijas%20y%20mochilas!5e0!3m2!1ses!2sar!4v1751485307208!5m2!1ses!2sar" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="mapa me-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218018.71801115165!2d-64.53495980546874!3d-31.371602599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432991686ffbe1d%3A0xcf390de779d9ec39!2sZENIT%20valijas%20y%20mochilas!5e0!3m2!1ses!2sar!4v1751485307208!5m2!1ses!2sar" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </footer>
