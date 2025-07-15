@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .inicio{
   font-size: 1rem
 }
@@ -35,7 +34,6 @@ a:hover .bi-cart3{
 .nav-link:hover{
   color: rgb(0, 0, 255);
 }
-
 
 /*Estilos Main*/
 .imagen_cabecera{
@@ -67,7 +65,7 @@ a:hover .bi-cart3{
   color: rgb(255, 0, 0);
   font-weight: normal;
 }
-.categoria, .producto, .mediopago{
+.cat_accesorios, .cat_botas, .cat_camperas, .cat_relojes, .cat_pantalones, .producto, .mediopago{
     width: 15rem
 }
 .subtitulo_categoria{
@@ -104,13 +102,15 @@ a:hover .bi-cart3{
   text-align: left;
   color: rgb(0, 0, 255);
 }
-.estrella{
-  font-size: 20px;
-  color: rgb(0, 0, 255);
-}
-
 .resena{
   font-size: 1px;
+}
+.cat_accesorios:hover, .cat_botas:hover, .cat_camperas:hover, .cat_relojes:hover, .cat_pantalones:hover{
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+.card-title, .text-warning{
+  text-align: center;
 }
 
 /*Estilos Footer*/
@@ -126,7 +126,6 @@ grid-row-gap: 1rem;
 .medios_pago{ grid-area: 3 / 1 / 4 / 2; }
 .derechos{ grid-area: 4 / 1 / 5 / 2; }
 .mapa{ grid-area: 1 / 2 / 5 / 3; }
-
 .redsocial {
   width: 2rem;
   height: 2rem;
@@ -159,7 +158,6 @@ footer{
     flex-direction: row;
   }
 }
-
 @media only screen and (max-width: 800px) {
   .footer_container {
     grid-template-columns: 1fr;
@@ -182,41 +180,29 @@ footer{
   .buscar{
     width: 16rem;
   }
-}
+}  
   
-  
-  
-  
-  
-  
-
-
 /*Style cuenta, Contacto y carrito*/
 .btn-ingresar, .btn-enviar, .btn-comprar{
  background-color: rgb(79, 78, 78);
 }
-
 .text-small:hover{
   font-size: 1rem;
   font-weight: bold;
 }
-
 .titulo{
   font-size: 1.5rem;
   color: rgb(79, 70, 70);
   font-weight: bold;
 }
-
 .home{
   text-decoration: none;
   color: rgb(0, 0, 255);
 }
-
 .accordion-button {
   background-color: rgb(240, 245, 250);
   font-weight: 100;
 }
-
 .accordion-button:not(.collapsed) {
   background-color: rgb(238, 241, 244);
   color: rgb(0, 0, 0);
