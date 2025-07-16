@@ -5,9 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-.inicio{
-  font-size: 1rem
-}
 body {
   padding-top: 155px;
 }
@@ -68,9 +65,6 @@ a:hover .bi-cart3{
 .cat_accesorios, .cat_botas, .cat_camperas, .cat_relojes, .cat_pantalones, .producto, .mediopago{
     width: 15rem
 }
-.subtitulo_categoria{
-  list-style: none;
-}
 .categoria_productos, .campera_productos, .zapatos_productos, .pantalones_productos, .relojes_productos{
   display: flex;
   flex-wrap: wrap;
@@ -96,14 +90,6 @@ a:hover .bi-cart3{
 .carrito_vacio{
   width: 35rem;
   height: 22rem;
-}
-.subtitulo_FAQ{
-  font-size: 1rem;
-  text-align: left;
-  color: rgb(0, 0, 255);
-}
-.resena{
-  font-size: 1px;
 }
 .cat_accesorios:hover, .cat_botas:hover, .cat_camperas:hover, .cat_relojes:hover, .cat_pantalones:hover{
   transform: scale(1.03);
@@ -154,7 +140,7 @@ footer{
 
 /*Media Queries*/
 @media only screen and (min-width: 800px){
-  .buscar, ul{
+  ul{
     flex-direction: row;
   }
 }
@@ -164,7 +150,7 @@ footer{
     grid-template-rows: auto;
   }
   .mapa iframe {
-    width: 100% !important;
+    width: 100%;
     height: auto;
     max-width: 100%;
   }
