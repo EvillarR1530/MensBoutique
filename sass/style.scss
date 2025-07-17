@@ -1,10 +1,17 @@
+/*Variables scss*/
+$colorNegro: rgb(0, 0, 0);
+$coloAzul: rgb(0, 0, 255);
+$coloVerde: rgb(0, 128, 0);
+$colorRojo: rgb(255, 0, 0);
+$colorBlanco: rgb(255, 255, 255);
+$colorGrisBg: rgb(79, 78, 78);
+$colorClaro: rgb(79, 70, 70);
 
-
-
-
-
-
-
+/*Extend*/
+.textoCentrado{
+    text-align: center;
+    margin: 1rem 0;
+}
 
 
 /*Estilos Generales*/
@@ -20,25 +27,25 @@ body {
 
 /*Estilos Header*/
 .bi-person-add{
-  color: rgb(0, 0, 0); 
+  color: $colorNegro; 
 }
 a:hover .bi-person-add{
-  color: rgb(0, 0, 255);
+  color: $coloAzul;
   font-size: 2rem;
   transform: scale(1.1);
   transition: 0.2s;
 }
 .bi-cart3{
-  color: rgb(0, 0, 0);
+  color: $colorNegro;
 }
 a:hover .bi-cart3{
-  color: rgb(0, 0, 255);
+  color: $coloAzul;
   font-size: 2rem;
   transform: scale(1.1);
   transition: 0.2s;
 }
 .nav-link:hover{
-  color: rgb(0, 0, 255);
+  color: $coloAzul;
 }
 
 /*Estilos Main*/
@@ -47,28 +54,26 @@ a:hover .bi-cart3{
   height: 30rem;
 }
 .titulo_principal, .titulo_producto{
-  text-align: center;
-  margin: 1rem 0;
-  font-size: 200%;
+   @extend .textoCentrado;
+   font-size: 200%;
 }
 .categoria_productos h2 a{
   font-size: 18px;
   text-decoration: none;
-  color: rgb(0, 0, 255)
+  color: $coloAzul
 }
 .descripcion_producto{
-  text-align: center;
-  margin: 1rem 0;
+  @extend .textoCentrado;
   font-size: 120%;
 }
 .precio{
-  color: rgb(0, 128, 0);
+  color: $coloVerde;
   font-weight: bold;
   text-align: center;
 }
 .precio span{
   text-decoration: line-through;
-  color: rgb(255, 0, 0);
+  color: $colorRojo;
   font-weight: normal;
 }
 .cat_accesorios, .cat_botas, .cat_camperas, .cat_relojes, .cat_pantalones, .producto, .mediopago{
@@ -88,13 +93,13 @@ a:hover .bi-cart3{
   margin-top: 20px;
   font-size: 25px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: $colorNegro;
 }
 .subtitulo_carrito{
   margin-top: 20px;
   font-size: 20px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: $colorNegro;
 }
 .carrito_vacio{
   width: 35rem;
@@ -130,14 +135,14 @@ grid-row-gap: 1rem;
   height: 2rem
 }
 footer{
-  background-color: rgb(0, 0, 0);
+  background-color: $colorNegro;
 }
 .titulos_footer{
-  color: rgb(255, 255, 255);
+  color: $colorBlanco;
   font-size: medium;
 }
 .parrafo_footer{
-  color: rgb(255, 255, 255);
+  color: $colorBlanco;
   font-size: small;
 }
 .mapa{
@@ -179,7 +184,7 @@ footer{
   
 /*Style cuenta, Contacto y carrito*/
 .btn-ingresar, .btn-enviar, .btn-comprar{
- background-color: rgb(79, 78, 78);
+ background-color: $colorGrisBg;
 }
 .text-small:hover{
   font-size: 1rem;
@@ -187,12 +192,12 @@ footer{
 }
 .titulo{
   font-size: 1.5rem;
-  color: rgb(79, 70, 70);
+  color: $colorClaro;
   font-weight: bold;
 }
 .home{
   text-decoration: none;
-  color: rgb(0, 0, 255);
+  color: $coloAzul;
 }
 .accordion-button {
   background-color: rgb(240, 245, 250);
@@ -200,7 +205,7 @@ footer{
 }
 .accordion-button:not(.collapsed) {
   background-color: rgb(238, 241, 244);
-  color: rgb(0, 0, 0);
+  color: $colorNegro;
   font-weight: 500;
 }
 
