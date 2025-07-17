@@ -1,3 +1,4 @@
+/*Variables scss*/
 /*Extend*/
 .textoCentrado, .descripcion_producto, .titulo_principal, .titulo_producto {
   text-align: center;
@@ -9,7 +10,12 @@
   align-items: center;
 }
 
-/*Variables scss*/
+.estiloCarrito, .subtitulo_carrito, .titulo_carrito {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
 /*Estilos Header*/
 .bi-person-add {
   color: rgb(0, 0, 0);
@@ -82,17 +88,11 @@ a:hover .bi-cart3 {
 }
 
 .titulo_carrito {
-  margin-top: 20px;
   font-size: 25px;
-  text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 .subtitulo_carrito {
-  margin-top: 20px;
   font-size: 20px;
-  text-align: center;
-  color: rgb(0, 0, 0);
 }
 
 .carrito_vacio {

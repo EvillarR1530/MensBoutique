@@ -37,16 +37,12 @@
   text-align: center;
 }
 .titulo_carrito{
-  margin-top: 20px;
   font-size: 25px;
-  text-align: center;
-  color: $colorNegro;
+  @extend .estiloCarrito;
 }
 .subtitulo_carrito{
-  margin-top: 20px;
   font-size: 20px;
-  text-align: center;
-  color: $colorNegro;
+  @extend .estiloCarrito;
 }
 .carrito_vacio{
   width: 35rem;
