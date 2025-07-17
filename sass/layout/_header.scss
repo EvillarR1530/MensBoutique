@@ -1,0 +1,22 @@
+/*Estilos Header*/
+.bi-person-add{
+  color: $colorNegro; 
+}
+a:hover .bi-person-add{
+  color: $colorAzul;
+  font-size: 2rem;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.bi-cart3{
+  color: $colorNegro;
+}
+a:hover .bi-cart3{
+  color: $colorAzul;
+  font-size: 2rem;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+.nav-link:hover{
+  color: $colorAzul;
+}

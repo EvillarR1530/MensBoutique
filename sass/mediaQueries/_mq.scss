@@ -1,0 +1,29 @@
+/*Media Queries*/
+@media only screen and (min-width: 800px){
+  ul{
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .footer_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .mapa iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .mediopago {
+    width: 100%;
+    height: auto;
+    max-width: 20rem;
+  }
+  .mapa {
+    width: 100%;
+    padding: 0 1rem;
+  }
+  .buscar{
+    width: 16rem;
+  }
+} 

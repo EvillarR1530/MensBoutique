@@ -1,0 +1,88 @@
+/*Estilos Main*/
+.imagen_cabecera{
+  height: 30rem;
+}
+.titulo_principal, .titulo_producto{
+   @extend .textoCentrado;
+   font-size: 200%;
+}
+.categoria_productos h2 a{
+  font-size: 18px;
+  color: $colorAzul
+}
+.descripcion_producto{
+  @extend .textoCentrado;
+  font-size: 120%;
+}
+.precio{
+  color: $colorVerde;
+  font-weight: bold;
+  text-align: center;
+}
+.precio span{
+  text-decoration: line-through;
+  color: $colorRojo;
+  font-weight: normal;
+}
+.ancho_imagen{
+    width: 15rem
+}
+.categoria_productos, .productos{
+  @extend .flexCentrado;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nombre_producto{
+  font-size: 1rem;
+  text-align: center;
+}
+.titulo_carrito{
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: center;
+  color: $colorNegro;
+}
+.subtitulo_carrito{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: $colorNegro;
+}
+.carrito_vacio{
+  width: 35rem;
+  height: 22rem;
+}
+.ancho_imagen:hover{
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+.card-title, .text-warning{
+  text-align: center;
+}
+
+/*Style cuenta, Contacto y carrito*/
+.btn-ingresar, .btn-enviar, .btn-comprar{
+ background-color: $colorGrisBg;
+}
+.text-small:hover{
+  font-size: 1rem;
+  font-weight: bold;
+}
+.titulo{
+  font-size: 1.5rem;
+  color: $colorClaro;
+  font-weight: bold;
+}
+.home{
+  text-decoration: none;
+  color: $colorAzul;
+}
+.accordion-button {
+  background-color: rgb(240, 245, 250);
+  font-weight: 100;
+}
+.accordion-button:not(.collapsed) {
+  background-color: rgb(238, 241, 244);
+  color: $colorNegro;
+  font-weight: 500;
+}
