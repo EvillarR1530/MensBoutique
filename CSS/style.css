@@ -105,10 +105,6 @@ a:hover .bi-cart3 {
   transition: transform 0.3s ease;
 }
 
-.card-title, .text-warning {
-  text-align: center;
-}
-
 /*Style cuenta, Contacto y carrito*/
 .btn-ingresar, .btn-enviar, .btn-comprar {
   background-color: rgb(79, 78, 78);
