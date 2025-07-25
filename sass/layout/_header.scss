@@ -20,10 +20,10 @@ a:hover .bi-cart3{
 .nav-link:hover{
   color: $colorAzul;
 }
-.segundo_menu, .segundo_nav {
+.segundo_menu {
   position: relative;
   text-decoration: none;
-  color: inherit;
+  color: $colorNegro;
   padding-bottom: 5px;
 
   &::after {
@@ -33,7 +33,7 @@ a:hover .bi-cart3{
     left: 0;
     height: 2px;
     width: 0%;
-    background-color: $colorRojo;
+    background-color: $colorNegro;
     transition: width 0.3s ease;
   }
 
