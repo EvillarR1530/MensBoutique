@@ -43,6 +43,26 @@ a:hover .bi-cart3 {
   color: rgb(0, 0, 255);
 }
 
+.segundo_menu, .segundo_nav {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 5px;
+}
+.segundo_menu::after, .segundo_nav::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(255, 0, 0);
+  transition: width 0.3s ease;
+}
+.segundo_menu:hover::after, .segundo_nav:hover::after {
+  width: 100%;
+}
+
 /*Estilos Main*/
 .imagen_cabecera {
   height: 30rem;
