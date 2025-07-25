@@ -24,17 +24,17 @@ a:hover .bi-cart3{
   position: relative;
   text-decoration: none;
   color: $colorNegro;
-  padding-bottom: 5px;
-
+  padding-bottom: 1px;
+  
   &::after {
     content: '';
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 2px;
+    height: 1px;
     width: 0%;
     background-color: $colorNegro;
-    transition: width 0.3s ease;
+    transition: width 0.5s ease;
   }
 
   &:hover::after {
