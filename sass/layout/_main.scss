@@ -47,6 +47,13 @@
   transform: scale(1.03);
   transition: transform 0.3s ease;
 }
+.card {
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
 
 /*Style cuenta, Contacto y carrito*/
 .btn-ingresar, .btn-enviar, .btn-comprar{

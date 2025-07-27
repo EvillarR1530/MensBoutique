@@ -17,8 +17,12 @@ a:hover .bi-cart3{
   transform: scale(1.1);
   transition: 0.2s;
 }
+.primer_menu {
+  transition: transform 0.3s ease;
+}
 .primer_menu:hover{
   color: $colorAzul;
+  transform: scale(1.05);
 }
 .segundo_menu {
   position: relative;

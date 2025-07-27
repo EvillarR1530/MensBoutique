@@ -39,8 +39,13 @@ a:hover .bi-cart3 {
   transition: 0.2s;
 }
 
+.primer_menu {
+  transition: transform 0.3s ease;
+}
+
 .primer_menu:hover {
   color: rgb(0, 0, 255);
+  transform: scale(1.05);
 }
 
 .segundo_menu {
@@ -119,6 +124,14 @@ a:hover .bi-cart3 {
 .ancho_imagen:hover {
   transform: scale(1.03);
   transition: transform 0.3s ease;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
 }
 
 /*Style cuenta, Contacto y carrito*/
