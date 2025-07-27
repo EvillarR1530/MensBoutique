@@ -5,7 +5,7 @@
   margin: 1rem 0;
 }
 
-.flexCentrado, .mapa, .categoria_productos, .productos {
+.flexCentrado {
   display: flex;
   align-items: center;
 }
@@ -73,11 +73,6 @@ a:hover .bi-cart3 {
   font-size: 200%;
 }
 
-.categoria_productos h2 a {
-  font-size: 18px;
-  color: rgb(0, 0, 255);
-}
-
 .descripcion_producto {
   font-size: 120%;
 }
@@ -98,11 +93,6 @@ a:hover .bi-cart3 {
   width: 15rem;
 }
 
-.categoria_productos, .productos {
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .nombre_producto {
   font-size: 1rem;
   text-align: center;
@@ -119,6 +109,11 @@ a:hover .bi-cart3 {
 .carrito_vacio {
   width: 35rem;
   height: 22rem;
+}
+
+.ancho_imagen:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
 .ancho_imagen:hover {
@@ -159,48 +154,6 @@ a:hover .bi-cart3 {
 }
 
 /*Estilos Footer*/
-.footer_container {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-template-rows: repeat(3, auto);
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-}
-
-.atencion_cliente {
-  grid-area: 1/1/2/2;
-}
-
-.redes_sociales {
-  grid-area: 2/1/3/2;
-}
-
-.medios_pago {
-  grid-area: 3/1/4/2;
-}
-
-.derechos {
-  grid-area: 4/1/5/2;
-}
-
-.mapa {
-  grid-area: 1/2/5/3;
-}
-
-.redsocial {
-  width: 2rem;
-  height: 2rem;
-}
-
-.mediopago {
-  width: 20rem;
-  height: 2rem;
-}
-
-footer {
-  background-color: rgb(0, 0, 0);
-}
-
 .titulos_footer {
   color: rgb(255, 255, 255);
   font-size: medium;
@@ -211,38 +164,10 @@ footer {
   font-size: small;
 }
 
-.mapa {
-  flex-direction: column;
-  width: 100%;
-}
-
 /*Media Queries*/
 @media only screen and (min-width: 800px) {
   ul {
     flex-direction: row;
-  }
-}
-@media only screen and (max-width: 800px) {
-  .footer_container {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-  .mapa iframe {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-  }
-  .mediopago {
-    width: 100%;
-    height: auto;
-    max-width: 20rem;
-  }
-  .mapa {
-    width: 100%;
-    padding: 0 1rem;
-  }
-  .buscar {
-    width: 16rem;
   }
 }
 /*Estilos Generales*/

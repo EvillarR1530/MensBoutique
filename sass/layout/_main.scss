@@ -6,10 +6,6 @@
    @extend .textoCentrado;
    font-size: 200%;
 }
-.categoria_productos h2 a{
-  font-size: 18px;
-  color: $colorAzul
-}
 .descripcion_producto{
   @extend .textoCentrado;
   font-size: 120%;
@@ -27,11 +23,6 @@
 .ancho_imagen{
     width: 15rem
 }
-.categoria_productos, .productos{
-  @extend .flexCentrado;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .nombre_producto{
   font-size: 1rem;
   text-align: center;
@@ -47,6 +38,10 @@
 .carrito_vacio{
   width: 35rem;
   height: 22rem;
+}
+.ancho_imagen:hover{
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 .ancho_imagen:hover{
   transform: scale(1.03);

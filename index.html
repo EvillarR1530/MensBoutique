@@ -50,10 +50,10 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="./Pages/contacto.html">Contacto</a>
+                            <a class="nav-link fs-5 primer_menu" href="./Pages/contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fs-5" href="./Pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                            <a class="nav-link fs-5 primer_menu" href="./Pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
                         </li>
                     </ul>
                 </div>
@@ -64,179 +64,287 @@
     <main>
         <img class="imagen_cabecera mw-100 " src="./Imagenes/Main_1.png" alt="Imagen de moda">
         <h1 class="titulo_principal">Estilo masculino que impone presencia</h1>
-        <!--Categorías de productos-->
-        <section class="categoria_productos">
-            <section>
-                <a href="./Pages/accesorios.html">
-                    <img class="ms-3 ancho_imagen" src="./Imagenes/accesorios_principal.webp" alt="Accesorios">
-                </a>
-                <h2 class="ms-3"><a href="./Pages/accesorios.html" class="text-decoration-none">Accesorios</a></h2>
-            </section>
-            <section>
-                <a href="./Pages/botas.html">
-                    <img class="ancho_imagen" src="./Imagenes/botas_hombre_principal.webp" alt="Botas">
-                </a>
-                <h2><a href="./Pages/botas.html" class="text-decoration-none">Botas</a></h2>
-            </section>
-            <section>
-                <a href="./Pages/camperas.html">
-                    <img class="ancho_imagen" src="./Imagenes/Camperas_hombre_principal.webp" alt="Camperas">
-                </a>
-                <h2><a href="./Pages/camperas.html" class="text-decoration-none">Camperas</a></h2>
-            </section>
-            <section>
-                <a href="./Pages/relojes.html">
-                    <img class="ancho_imagen" src="./Imagenes/relojes_hombres_principal.webp" alt="Relojes">
-                </a>
-                <h2><a href="./Pages/relojes.html" class="text-decoration-none">Relojes</a></h2>
-            </section>
-            <section>
-                <a href="./Pages/pantalones.html">
-                    <img class="me-3 ancho_imagen" src="./Imagenes/pantalones_hombre_principal.webp" alt="Pantalones">
-                </a>
-                <h2><a href="./Pages/pantalones.html" class="text-decoration-none">Pantalones</a></h2>
-            </section>
+        <section class="container my-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+                <!-- Card Accesorios -->
+                <div class="col">
+                    <div class="card" style="min-width: 200px;">
+                        <a href="./Pages/accesorios.html"><img src="./Imagenes/accesorios_principal.webp" class="card-img-top" alt="Accesorios"></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="./Pages/accesorios.html" class="text-decoration-none text-dark">Accesorios</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Botas -->
+                <div class="col">
+                    <div class="card" style="min-width: 200px;">
+                        <a href="./Pages/botas.html"><img src="./Imagenes/botas_hombre_principal.webp" class="card-img-top" alt="Botas"></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="./Pages/botas.html" class="text-decoration-none text-dark">Botas</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Camperas -->
+                <div class="col">
+                    <div class="card" style="min-width: 200px;">
+                        <a href="./Pages/camperas.html"><img src="./Imagenes/Camperas_hombre_principal.webp" class="card-img-top" alt="Camperas"></a>
+                        <div class="card-body text-center">
+                        <h5 class="card-title"><a href="./Pages/camperas.html" class="text-decoration-none text-dark">Camperas</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Relojes -->
+                <div class="col">
+                    <div class="card" style="min-width: 200px;">
+                        <a href="./Pages/relojes.html"><img src="./Imagenes/relojes_hombres_principal.webp" class="card-img-top" alt="Relojes"></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="./Pages/relojes.html" class="text-decoration-none text-dark">Relojes</a></h5> 
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Pantalones -->
+                <div class="col">
+                    <div class="card" style="min-width: 200px;">
+                        <a href="./Pages/pantalones.html"><img src="./Imagenes/pantalones_hombre_principal.webp" class="card-img-top" alt="Pantalones"></a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title"><a href="./Pages/pantalones.html" class="text-decoration-none text-dark">Pantalones</a></h5>  
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!--Producto camperas-->
-        <section>
+        <!-- Producto camperas -->
+        <section class="container my-5">
             <h2 class="titulo_producto">Camperas</h2>
-            <p class="descripcion_producto">Camperas ideales para el invierno: camperas impermeables, camperas de cuero auténtico y modelos térmicos que combinan estilo y protección contra el frío.</p>
-            <section class="productos">
-                <section>
-                    <img class="ms-3 ancho_imagen" src="./Imagenes/Campera_Acolchada_StreetCore.webp" alt="Campera acolchada StreetCore">
-                    <h3 class="nombre_producto">Campera Acolchada StreetCore</h3>
-                    <p class="precio"><span>$95.000,00</span> $91.991,90</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Campera_Bomber_Boulevard.webp" alt="Campera Bomber Boulevard">
-                    <h3 class="nombre_producto">Campera Bomber Boulevard</h3>
-                    <p class="precio"><span>$96.000,00</span> $89.599,90</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Campera_Bomber_Outdoor.webp" alt="Campera Bomber Outdoor">
-                    <h3 class="nombre_producto">Campera Bomber Outdoor</h3>
-                    <p class="precio"><span>$94.000,00</span> $89.599,90</p>
-                </section>
-                <section>
-                    <img class="me-3 ancho_imagen" src="./Imagenes/Campera_Casual_Dublin.jpg" alt="Campera Casual Dublín">
-                    <h3 class="nombre_producto">Campera Casual Dublín</h3>
-                    <p class="precio"><span>$97.500,00</span> $89.391,90</p>
-                </section>
-            </section>
+            <p class="descripcion_producto">
+                Camperas ideales para el invierno: camperas impermeables, camperas de cuero auténtico y modelos térmicos que combinan estilo y protección contra el frío.
+            </p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Campera_Acolchada_StreetCore.webp" class="card-img-top" alt="Campera acolchada StreetCore">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Campera Acolchada StreetCore</h3>
+                            <p class="precio"><span>$95.000,00</span> $91.991,90</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Campera_Bomber_Boulevard.webp" class="card-img-top" alt="Campera Bomber Boulevard">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Campera Bomber Boulevard</h3>
+                            <p class="precio"><span>$96.000,00</span> $989.599,90</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Campera_Bomber_Outdoor.webp" class="card-img-top" alt="Campera Bomber Outdoor">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Campera Bomber Boulevard</h3>
+                            <p class="precio"><span>$94.000,00</span> $89.599,90</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Campera_Casual_Dublin.jpg" class="card-img-top" alt="Campera Casual Dublín">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Campera Bomber Boulevard</h3>
+                            <p class="precio"><span>$97.500,00</span> $89.391,90</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!--Producto zapatos-->
-        <section>
+        <!-- Producto zapatos -->
+        <section class="container my-5">
             <h2 class="titulo_producto">Zapatos Casuales</h2>
             <p class="descripcion_producto">Pensados para el uso diario con estilo y confort. Desde modelos clásicos hasta diseños modernos, nuestros zapatos combinan materiales de calidad, durabilidad y un calce perfecto.</p>
-            <section class="productos">
-                <section>
-                    <img class="ms-3 ancho_imagen" src="./Imagenes/Zapato_Casual_Elegante.webp" alt="Zapato Casual Elegante">
-                    <h3 class="nombre_producto">Zapato Casual elegante con cordones</h3>
-                    <p class="precio">$102.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Zapato_Casual_Europa.webp" alt="Zapato casual Europa">
-                    <h3 class="nombre_producto">Zapato casual Europa</h3>
-                    <p class="precio">$115.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Zapato_Cuero_Autentico.webp" alt="Zapato de cuero auténtico">
-                    <h3 class="nombre_producto">Zapato de cuero auténtico</h3>
-                    <p class="precio">$112.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen me-3" src="./Imagenes/Zapato_Impermeable.webp" alt="Zapato impermeable">
-                    <h3 class="nombre_producto">Zapato impermeable</h3>
-                    <p class="precio">$75.990,00</p>
-                </section>
-            </section>   
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Zapato_Casual_Elegante.webp" class="card-img-top" alt="Zapato Casual Elegante">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Zapato Casual elegante con cordones</h3>
+                            <p class="precio">$102.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Zapato_Casual_Europa.webp" class="card-img-top" alt="Zapato casual Europa">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Zapato casual Europa</h3>
+                            <p class="precio">$115.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Zapato_Cuero_Autentico.webp" class="card-img-top" alt="Zapato de cuero auténtico">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Zapato de cuero auténtico</h3>
+                            <p class="precio">$112.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Zapato_Impermeable.webp" class="card-img-top" alt="Zapato impermeable">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Zapato impermeable</h3>
+                            <p class="precio">$75.990,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <!--Producto pantalones-->
-        <section>
+        <!-- Producto pantalones -->
+        <section class="container my-5">
             <h2 class="titulo_producto">Pantalones</h2>
-            <p class="descripcion_producto">Diseñados para ofrecer comodidad, funcionalidad y estilo, nuestros modelos son ideales tanto para el uso diario como para actividades al aire libre</p>
-            <section class="productos">
-                <section>
-                    <img class="ancho_imagen ms-3" src="./Imagenes/Pantalon_Cargo_Tactico.webp" alt="Pantalones Cargo tácticos">
-                    <h3 class="nombre_producto">Pantalones Cargo tácticos</h3>
-                    <p class="precio">$64.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Pantalon_Deportivo_Versatil.webp" alt="Pantalones deportivos versátiles">
-                    <h3 class="nombre_producto">Pantalones deportivos versátiles</h3>
-                    <p class="precio">$84.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Pantalon_Tactico_Impermeable.webp" alt="Pantalones tácticos impermeables">
-                    <h3 class="nombre_producto">Pantalones tácticos impermeables</h3>
-                    <p class="precio"><span>$89.000,00</span> $67.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen me-3" src="./Imagenes/Pantalon_Militar_Camuflado.webp" alt="Pantalón militar camuflado">
-                    <h3 class="nombre_producto">Pantalón militar camuflado</h3>
-                    <p class="precio">$94.990,00</p>
-                </section>
-            </section>
-        </section>  
-        <!--Categorías relojes-->
-        <section>
+            <p class="descripcion_producto">Diseñados para ofrecer comodidad, funcionalidad y estilo, nuestros modelos son ideales tanto para el uso diario como para actividades al aire libre.</p>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Pantalon_Cargo_Tactico.webp" class="card-img-top" alt="Pantalones Cargo tácticos">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Pantalones Cargo tácticos</h3>
+                            <p class="precio">$64.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Pantalon_Deportivo_Versatil.webp" class="card-img-top" alt="Pantalones deportivos versátiles">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Pantalones deportivos versátiles</h3>
+                            <p class="precio">$84.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Pantalon_Tactico_Impermeable.webp" class="card-img-top" alt="Pantalones tácticos impermeables">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Pantalones tácticos impermeables</h3>
+                            <p class="precio"><span>$89.000,00</span> $67.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Pantalon_Militar_Camuflado.webp" class="card-img-top" alt="Pantalón militar camuflado">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Pantalón militar camuflado</h3>
+                            <p class="precio">$94.990,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Producto relojes -->
+        <section class="container my-5">
             <h2 class="titulo_producto">Relojes</h2>
             <p class="descripcion_producto">Elevá tu estilo con nuestra exclusiva colección de relojes para hombre de línea premium. Ideal para quienes valoran lo extraordinario y no se conforman con lo común.</p>
-            <section class="productos">
-                <section>
-                    <img class="ancho_imagen ms-3" src="./Imagenes/Reloj_Benyar_Elegance.webp" alt="Reloj Reloj Benyar Elegance">
-                    <h3 class="nombre_producto">Reloj Benyar Elegance</h3>
-                    <p class="precio"><span>$269.000,00</span> $208.590,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Reloj_Benyar_Elegance2.webp" alt="Reloj Benyar Elegance azul">
-                    <h3 class="nombre_producto">Reloj Benyar Elegance azul</h3>
-                    <p class="precio">$177.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen" src="./Imagenes/Reloj_Pagani_911.webp" alt="Reloj Pagani 911">
-                    <h3 class="nombre_producto">Reloj Pagani 911</h3>
-                    <p class="precio"><span>$249.000,00</span> $210.000,00</p>
-                </section>
-                <section>
-                    <img class="ancho_imagen me-3" src="./Imagenes/Reloj_Pagani_Williams.webp" alt="Reloj Pagani Williams">
-                    <h3 class="nombre_producto">Reloj Pagani Williams</h3>
-                    <p class="precio">$267.000,00</p>
-                </section>
-            </section>
-        </section> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Reloj_Benyar_Elegance.webp" class="card-img-top" alt="Reloj Reloj Benyar Elegance">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Reloj Benyar Elegance</h3>
+                            <p class="precio"><span>$269.000,00</span> $208.590,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Reloj_Benyar_Elegance2.webp" class="card-img-top" alt="Reloj Benyar Elegance azul">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Reloj Benyar Elegance azul</h3>
+                            <p class="precio">$177.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Reloj_Pagani_911.webp" class="card-img-top" alt="Reloj Pagani 911">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Reloj Pagani 911</h3>
+                            <p class="precio"><span>$249.000,00</span> $210.000,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./Imagenes/Reloj_Pagani_Williams.webp" class="card-img-top" alt="Reloj Pagani Williams">
+                        <div class="card-body">
+                            <h3 class="nombre_producto">Reloj Pagani Williams</h3>
+                            <p class="precio">$267.000,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="footer_container ms-2">
-            <div class="atencion_cliente mt-3">
-                <h3 class="titulos_footer my-1">Atención al cliente</h3>
-                <p class="parrafo_footer me-3 my-0">Lunes a viernes 09:00 a 18 hs - sábados y domingos cerrados.</p>
-                <i class="bi bi-envelope-at fs-6 me-3 text-white"><span class="ms-2 fst-normal parrafo_footer">proyecto.coderhouse@gmail.com.ar</span></i>
-                <i class="bi bi-telephone fs-6 me-3 text-white"><span class="ms-2 fst-normal parrafo_footer">+54 123 456 7890</span></i>                   
-            </div>
-            <div class="redes_sociales my-2">
-                <h3 class="titulos_footer">Redes sociales</h3>
-                <a href="https://www.facebook.com/">
-                    <i class="bi bi-facebook fs-3 me-4"></i>
-                </a>
-                <a href="https://www.instagram.com/">
-                    <i class="bi bi-instagram fs-3 me-4"></i>
-                </a>
-                <a href="https://www.youtube.com/">
-                    <i class="bi bi-youtube fs-3 me-4"></i>
-                </a> 
-            </div>
-            <div class="medios_pago my-3">
-                <h3 class="titulos_footer">Medios de Pago</h3>
-                <img class=" ancho_imagen" src="./Iconografia/ico_tarjetas1.png" alt="Medios de pago">
-                <img class=" ancho_imagen" src="./Iconografia/ico_tarjetas2.png" alt="Medios de pago">
-            </div>
-            <div class="derechos">
-                <p class="parrafo_footer">Men's Boutique - Todos los derechos reservados 2025.</p>
-            </div>
-            <div class="mapa text-white mb-2">Localización
-                <iframe class="mapa me-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218018.71801115165!2d-64.53495980546874!3d-31.371602599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432991686ffbe1d%3A0xcf390de779d9ec39!2sZENIT%20valijas%20y%20mochilas!5e0!3m2!1ses!2sar!4v1751485307208!5m2!1ses!2sar" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="bg-black text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Atención al cliente -->
+                    <div class="mb-4">
+                        <h3 class="titulos_footer my-1">Atención al cliente</h3>
+                        <p class="parrafo_footer my-0">Lunes a viernes 09:00 a 18 hs - sábados y domingos cerrados.</p>
+                        <p>
+                            <i class="bi bi-envelope-at me-2"></i>
+                            <span class="fst-normal parrafo_footer">proyecto.coderhouse@gmail.com.ar</span>
+                        </p>
+                        <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            <span class="fst-normal parrafo_footer">+54 123 456 7890</span>
+                        </p>
+                    </div>
+                    <!-- Redes sociales -->
+                    <div class="mb-4">
+                        <h3 class="titulos_footer">Redes sociales</h3>
+                        <a href="https://www.facebook.com/" class="text-white me-3"><i class="bi bi-facebook fs-3"></i></a>
+                        <a href="https://www.instagram.com/" class="text-white me-3"><i class="bi bi-instagram fs-3"></i></a>
+                        <a href="https://www.youtube.com/" class="text-white me-3"><i class="bi bi-youtube fs-3"></i></a>
+                    </div>
+                    <!-- Medios de Pago -->
+                    <div class="mb-4">
+                        <h3 class="titulos_footer">Medios de Pago</h3>
+                        <img class="ancho_imagen me-2" src="./Iconografia/ico_tarjetas1.png" alt="Medios de pago">
+                        <img class="ancho_imagen" src="./Iconografia/ico_tarjetas2.png" alt="Medios de pago">
+                    </div>
+                    <!-- Derechos Reservados -->
+                    <div>
+                    <p class="parrafo_footer">Men's Boutique - Todos los derechos reservados 2025.</p>
+                    </div>
+                </div>
+                <!-- Mapa -->
+                <div class="col-md-4">
+                    <h5 class="mb-2">Localización</h5>
+                    <iframe class="w-100" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218018.71801115165!2d-64.53495980546874!3d-31.371602599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432991686ffbe1d%3A0xcf390de779d9ec39!2sZENIT%20valijas%20y%20mochilas!5e0!3m2!1ses!2sar!4v1751485307208!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </footer>

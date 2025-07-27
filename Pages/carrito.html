@@ -38,37 +38,45 @@
                 <a href="../Pages/cuenta.html"><i class="bi bi-person-add fs-2 me-4"></i></a>
             </div>
         </div>
-        <!--Menú de navegación-->  
+        <!--Menú de navegación-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light flex-column">
             <div class="container-fluid ">
-                <div class="d-flex justify-content-center w-100">
-                    <ul class="navbar-nav flex-row">
-                        <li class="nav-item mx-2">
-                            <a class="nav-link fs-5 primer_menu" href="../Pages/contacto.html">Contacto</a>
-                        </li>
-                        <li class="nav-item mx-2">
-                            <a class="nav-link fs-5 primer_menu" href="../Pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
-                        </li>
+                <!-- Botón de menú para móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto">
+                      <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 primer_menu" href="/index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 primer_menu" href="../Pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item mx-2">
+                        <a class="nav-link fs-5 primer_menu" href="../Pages/preguntas_frecuentes.html">Preguntas Frecuentes</a>
+                      </li>
                     </ul>
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="d-flex justify-content-center w-100">
-                    <ul class="navbar-nav flex-row">
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item mx-3">
                             <a class="nav-link fs-6 segundo_menu" href="../Pages/accesorios.html">Accesorios</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link fs-6 segundo_menu" href="../Pages/pantalones.html">Pantalones</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="nav-link fs-6 segundo_menu" href="../Pages/relojes.html">Relojes</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link fs-6 segundo_menu" href="../Pages/botas.html">Botas</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link fs-6 segundo_menu" href="../Pages/camperas.html">Camperas</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fs-6 segundo_menu" href="../Pages/relojes.html">Relojes</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link fs-6 segundo_menu" href="../Pages/pantalones.html">Pantalones</a>
                         </li>
                     </ul>
                 </div>
@@ -91,36 +99,46 @@
         </div>
     </main>
 
-    <footer>
-        <div class="footer_container ms-2 my-3">
-            <div class="atencion_cliente mt-3">
-                <h3 class="titulos_footer my-1">Atención al cliente</h3>
-                <p class="parrafo_footer me-3 my-0">Lunes a viernes 09:00 a 18 hs - sábados y domingos cerrados.</p>
-                <i class="bi bi-envelope-at fs-6 me-3 text-white"><span class="ms-2 fst-normal parrafo_footer">proyecto.coderhouse@gmail.com.ar</span></i>
-                <i class="bi bi-telephone fs-6 me-3 text-white"><span class="ms-2 fst-normal parrafo_footer">+54 123 456 7890</span></i>                   
-            </div>
-            <div class="redes_sociales my-2">
-                <h3 class="titulos_footer">Redes sociales</h3>
-                <a href="https://www.facebook.com/">
-                    <i class="bi bi-facebook fs-3 me-4"></i>
-                </a>
-                <a href="https://www.instagram.com/">
-                    <i class="bi bi-instagram fs-3 me-4"></i>
-                </a>
-                <a href="https://www.youtube.com/">
-                    <i class="bi bi-youtube fs-3 me-4"></i>
-                </a> 
-            </div>
-            <div class="medios_pago my-3">
-                <h3 class="titulos_footer">Medios de Pago</h3>
-                <img class="mediopago" src="../Iconografia/ico_tarjetas1.png" alt="Medios de pago">
-                <img class="mediopago" src="../Iconografia/ico_tarjetas2.png" alt="Medios de pago">
-            </div>
-            <div class="derechos">
-                <p class="parrafo_footer">Men's Boutique - Todos los derechos reservados 2025.</p>
-            </div>
-            <div class="mapa text-white mb-2">Localización
-                <iframe class="mapa me-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218018.71801115165!2d-64.53495980546874!3d-31.371602599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432991686ffbe1d%3A0xcf390de779d9ec39!2sZENIT%20valijas%20y%20mochilas!5e0!3m2!1ses!2sar!4v1751485307208!5m2!1ses!2sar" width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <footer class="bg-black text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- Atención al cliente -->
+                    <div class="mb-4">
+                        <h3 class="titulos_footer my-1">Atención al cliente</h3>
+                        <p class="parrafo_footer my-0">Lunes a viernes 09:00 a 18 hs - sábados y domingos cerrados.</p>
+                        <p>
+                            <i class="bi bi-envelope-at me-2"></i>
+                            <span class="fst-normal parrafo_footer">proyecto.coderhouse@gmail.com.ar</span>
+                        </p>
+                        <p>
+                            <i class="bi bi-telephone me-2"></i>
+                            <span class="fst-normal parrafo_footer">+54 123 456 7890</span>
+                        </p>
+                    </div>
+                    <!-- Redes sociales -->
+                    <div class="mb-4">
+                        <h3 class="titulos_footer">Redes sociales</h3>
+                        <a href="https://www.facebook.com/" class="text-white me-3"><i class="bi bi-facebook fs-3"></i></a>
+                        <a href="https://www.instagram.com/" class="text-white me-3"><i class="bi bi-instagram fs-3"></i></a>
+                        <a href="https://www.youtube.com/" class="text-white me-3"><i class="bi bi-youtube fs-3"></i></a>
+                    </div>
+                    <!-- Medios de Pago -->
+                    <div class="mb-4">
+                        <h3 class="titulos_footer">Medios de Pago</h3>
+                        <img class="ancho_imagen me-2" src="../Iconografia/ico_tarjetas1.png" alt="Medios de pago">
+                        <img class="ancho_imagen" src="../Iconografia/ico_tarjetas2.png" alt="Medios de pago">
+                    </div>
+                    <!-- Derechos Reservados -->
+                    <div>
+                    <p class="parrafo_footer">Men's Boutique - Todos los derechos reservados 2025.</p>
+                    </div>
+                </div>
+                <!-- Mapa -->
+                <div class="col-md-4">
+                    <h5 class="mb-2">Localización</h5>
+                    <iframe class="w-100" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d218018.71801115165!2d-64.53495980546874!3d-31.371602599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432991686ffbe1d%3A0xcf390de779d9ec39!2sZENIT%20valijas%20y%20mochilas!5e0!3m2!1ses!2sar!4v1751485307208!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
         </div>
     </footer>
