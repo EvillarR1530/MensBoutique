@@ -116,6 +116,10 @@ a:hover .bi-cart3 {
   height: 22rem;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .ancho_imagen:hover {
   transform: scale(1.03);
   transition: transform 0.3s ease;
